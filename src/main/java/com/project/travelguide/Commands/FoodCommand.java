@@ -3,14 +3,15 @@ package com.project.travelguide.Commands;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Getter
 @Setter
 @NoArgsConstructor
-public class DistanceMeterCommand {
-
+public class FoodCommand {
     private Long id;
-    private String stringZone;
-    private String endingZone;
-    private String totalDistance;
+    private PlaceDetails placeDetails;
+    private String foodTypeId;
+    private String priceRange;
 }
