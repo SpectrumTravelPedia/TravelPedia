@@ -1,9 +1,5 @@
 package com.project.travelguide.Services;
 
-import com.project.travelguide.Commands.PlaceDetailsCommand;
-import com.project.travelguide.Converter.PlaceDetailsCommandToPlaceDetails;
-import com.project.travelguide.Converter.PlaceDetailsToPlaceDetailsCommand;
-import com.project.travelguide.Models.PlaceDetails;
 import com.project.travelguide.Repositorys.PlaceDetailsRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

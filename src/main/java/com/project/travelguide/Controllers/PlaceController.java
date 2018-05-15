@@ -1,8 +1,5 @@
 package com.project.travelguide.Controllers;
 
-import com.project.travelguide.Commands.PlaceDetailsCommand;
-import com.project.travelguide.Commands.SignUpCommand;
-import com.project.travelguide.Models.PlaceDetails;
 import com.project.travelguide.Repositorys.PlaceDetailsRepository;
 import com.project.travelguide.Services.PlaceService;
 import lombok.extern.slf4j.Slf4j;

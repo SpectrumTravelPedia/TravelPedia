@@ -1,13 +1,9 @@
 package com.project.travelguide.Controllers;
 
-import com.project.travelguide.Commands.HotelCommand;
-import com.project.travelguide.Commands.PlaceDetailsCommand;
-import com.project.travelguide.Commands.SafetyCommad;
-import com.project.travelguide.Commands.SignUpCommand;
-import com.project.travelguide.Repositorys.*;
 import com.project.travelguide.Services.HotelService;
 import com.project.travelguide.Services.PlaceService;
 import com.project.travelguide.Services.SignUpService;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,6 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Controller
+@Slf4j
 public class ImageController {
     private SignUpService signUpService;
     private PlaceService placeService;
