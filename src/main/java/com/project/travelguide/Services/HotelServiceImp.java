@@ -1,9 +1,5 @@
 package com.project.travelguide.Services;
 
-import com.project.travelguide.Commands.HotelCommand;
-import com.project.travelguide.Converter.HotelCommandToHotel;
-import com.project.travelguide.Converter.HotelToHotelCommand;
-import com.project.travelguide.Models.Hotels;
 import com.project.travelguide.Repositorys.HotelRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

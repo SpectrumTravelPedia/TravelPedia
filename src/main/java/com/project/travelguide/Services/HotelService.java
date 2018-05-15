@@ -1,7 +1,5 @@
 package com.project.travelguide.Services;
 
-import com.project.travelguide.Commands.HotelCommand;
-import com.project.travelguide.Models.Hotels;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface HotelService {
